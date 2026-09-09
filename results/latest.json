@@ -2,7 +2,7 @@
   "counts": {
     "pass": 221
   },
-  "duration_seconds": 2.348,
+  "duration_seconds": 0.717,
   "eligibility": {
     "eligible": 221,
     "excluded": {
@@ -10,9 +10,9 @@
     }
   },
   "format": "jsx",
-  "generated_at": "2026-09-09T20:17:41Z",
+  "generated_at": "2026-09-09T23:23:25Z",
   "minifier": {
-    "path": "/workspace/scratch/04e13b047c72/conformance-work/minify/minify"
+    "path": "/home/nick/Repositories/nift/minify/minify/minify"
   },
   "results": [
     {
@@ -1346,7 +1346,7 @@
   "source_revisions": {
     "typescript": {
       "revision": "1e4744d68260a7cb91b62b12edc3f6a2187faaf1",
-      "synced_at": "2026-09-09T20:00:31Z",
+      "synced_at": "2026-09-09T22:27:32Z",
       "url": "https://github.com/microsoft/TypeScript.git"
     }
   },
