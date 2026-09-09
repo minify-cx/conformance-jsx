@@ -1,0 +1,1354 @@
+{
+  "counts": {
+    "pass": 221
+  },
+  "duration_seconds": 2.348,
+  "eligibility": {
+    "eligible": 221,
+    "excluded": {
+      "source-parser-rejected": 56
+    }
+  },
+  "format": "jsx",
+  "generated_at": "2026-09-09T20:17:41Z",
+  "minifier": {
+    "path": "/workspace/scratch/04e13b047c72/conformance-work/minify/minify"
+  },
+  "results": [
+    {
+      "id": "c33cc4087b5c9112",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenCanBeTupleType.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "8ff862fb9070e1c0",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "a31ea701325c4909",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty10.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "9586025b33e147a1",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty11.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "91d4300792c696ee",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty12.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "5fb5687224246bd1",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty13.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "7cafc8474f513d44",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty14.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "54eab3510e0a83cb",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty15.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "f1e9bd2b43e1271b",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty16.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "99b69f8560af6bed",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "0e19de01a3bd5c09",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty3.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "37ea0f620cc6a561",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty4.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "54ca7d18b1f63d60",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty5.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "fec81dd4fc6101db",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty6.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "cb1c8d8c9f99fcaa",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty7.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "5cee7248f3ae9f0d",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty8.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "a7aa1578cbea8378",
+      "source": "tests/cases/conformance/jsx/checkJsxChildrenProperty9.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "1403181c50d26b3d",
+      "source": "tests/cases/conformance/jsx/checkJsxGenericTagHasCorrectInferences.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "055537de36ca7646",
+      "source": "tests/cases/conformance/jsx/checkJsxIntersectionElementPropsType.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "0a8e8431063b8dfa",
+      "source": "tests/cases/conformance/jsx/checkJsxSubtleSkipContextSensitiveBug.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "13b998b629d9b6c6",
+      "source": "tests/cases/conformance/jsx/checkJsxUnionSFXContextualTypeInferredCorrectly.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "cc99f1b000544a86",
+      "source": "tests/cases/conformance/jsx/commentEmittingInPreserveJsx1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "e3f784d467d27bca",
+      "source": "tests/cases/conformance/jsx/correctlyMarkAliasAsReferences1.tsx#0.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "1d038d48dc11e7b6",
+      "source": "tests/cases/conformance/jsx/correctlyMarkAliasAsReferences2.tsx#0.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "946e15fbc76df800",
+      "source": "tests/cases/conformance/jsx/correctlyMarkAliasAsReferences3.tsx#0.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "d6eb963c93a3844e",
+      "source": "tests/cases/conformance/jsx/correctlyMarkAliasAsReferences4.tsx#0.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "106d9679dd1972cb",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxAndJsxFragPragma.tsx#preacty.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "d06370a94191f53c",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxAndJsxFragPragma.tsx#snabbdomy.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "df9d1c241a1f19be",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxAndJsxFragPragma.tsx#preacty-only-fragment.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "5bf5c127234294e9",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxAndJsxFragPragma.tsx#snabbdomy-only-fragment.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "d86a13776b082da2",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxAndJsxFragPragma.tsx#preacty-only-fragment-no-jsx.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "3fac53996805fcb6",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxAndJsxFragPragma.tsx#snabbdomy-only-fragment-no-jsx.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "cb7a49a59f71a259",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxAndJsxFragPragma.tsx#preacty-no-fragment.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "e9f5dc0b02bff2c3",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxAndJsxFragPragma.tsx#snabbdomy-no-fragment.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "bf830a0ddcf36b8c",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxAndJsxFragPragma.tsx#preacty-only-component.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "d5c4089982589643",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxAndJsxFragPragmaOverridesCompilerOptions.tsx#reacty.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "0f3693ef5633b05f",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxAndJsxFragPragmaOverridesCompilerOptions.tsx#preacty.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "02cff872dff8e262",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxAndJsxFragPragmaOverridesCompilerOptions.tsx#snabbdomy.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "e68bec00cdcf1dcc",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxAndJsxFragPragmaOverridesCompilerOptions.tsx#mix-n-match.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "7e86593fc68456f3",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxFactoryDeclarations.tsx#otherreacty.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "11f6676e19e0028b",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxFactoryDeclarations.tsx#other.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "eadf55235d1b257c",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxFactoryDeclarations.tsx#othernoalias.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "ebfed875964e31b5",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxFactoryDeclarations.tsx#reacty.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "7e944e086c7d81da",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxFactoryDeclarations.tsx#index.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "146a60130988e1ae",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxFactoryDeclarationsLocalTypes.tsx#component.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "eea1ea543c7f892f",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxFactoryDeclarationsLocalTypes.tsx#index.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "38bf19dd74a22cae",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxFactoryLocalTypeGlobalFallback.tsx#component.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "72805addd06f24f9",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxFactoryLocalTypeGlobalFallback.tsx#index.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "ee17f3616bfc7c13",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxFactoryOverridesCompilerOption.tsx#reacty.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "4167bbf71ca402b4",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxFactoryOverridesCompilerOption.tsx#index.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "b6115f65000b1e31",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxFactoryWithFragmentIsError.tsx#reacty.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "d82e26386844af88",
+      "source": "tests/cases/conformance/jsx/inline/inlineJsxFactoryWithFragmentIsError.tsx#index.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "84d3ca20c2d7e90e",
+      "source": "tests/cases/conformance/jsx/jsxCheckJsxNoTypeArgumentsAllowed.tsx#file.jsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "b63713a9068426d1",
+      "source": "tests/cases/conformance/jsx/jsxParsingError1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "fa2d1af22cdd6f98",
+      "source": "tests/cases/conformance/jsx/jsxParsingError2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "dcb369f4c991ebed",
+      "source": "tests/cases/conformance/jsx/jsxParsingError3.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "97c9d451ab0f3192",
+      "source": "tests/cases/conformance/jsx/jsxParsingError4.tsx#a.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "fdbc9af1aebeaa2a",
+      "source": "tests/cases/conformance/jsx/jsxReactTestSuite.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "2a98b0b1b4640e5e",
+      "source": "tests/cases/conformance/jsx/jsxSpreadOverwritesAttributeStrict.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "c313f49c34b9c212",
+      "source": "tests/cases/conformance/jsx/jsxs/jsxJsxsCjsTransformChildren.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "6103680ced6b1678",
+      "source": "tests/cases/conformance/jsx/jsxs/jsxJsxsCjsTransformCustomImport.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "4efd1050ba45c542",
+      "source": "tests/cases/conformance/jsx/jsxs/jsxJsxsCjsTransformCustomImportPragma.tsx#preact.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "3185cb085d033814",
+      "source": "tests/cases/conformance/jsx/jsxs/jsxJsxsCjsTransformCustomImportPragma.tsx#react.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "a460861b001368ba",
+      "source": "tests/cases/conformance/jsx/jsxs/jsxJsxsCjsTransformKeyProp.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "db3e62d4e5b26259",
+      "source": "tests/cases/conformance/jsx/jsxs/jsxJsxsCjsTransformKeyPropCustomImport.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "84933a23bcf454fd",
+      "source": "tests/cases/conformance/jsx/jsxs/jsxJsxsCjsTransformKeyPropCustomImportPragma.tsx#preact.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "b7a1dd695d776605",
+      "source": "tests/cases/conformance/jsx/jsxs/jsxJsxsCjsTransformKeyPropCustomImportPragma.tsx#react.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "da5b29035643f21c",
+      "source": "tests/cases/conformance/jsx/jsxs/jsxJsxsCjsTransformNestedSelfClosingChild.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "6981134ab63d50d0",
+      "source": "tests/cases/conformance/jsx/jsxs/jsxJsxsCjsTransformSubstitutesNames.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "49c1da07ccc83472",
+      "source": "tests/cases/conformance/jsx/jsxs/jsxJsxsCjsTransformSubstitutesNamesFragment.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "af43d95796d38998",
+      "source": "tests/cases/conformance/jsx/tsxAttributeErrors.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "fe15572bca666ceb",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "3bb870d34fdab86f",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "3b804ba4464aadf4",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution10.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "d8e463decd762c2b",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution11.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "83ea704091e18842",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution12.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "08ac88d54ac9fb75",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution13.tsx#test.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "a88f3b1a5991f544",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution14.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "79eebc791a5cd839",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution15.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "0377841820940b2a",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution16.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "4a2fed58889b9b6e",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "fc5e41ead3a9e6b0",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution3.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "1fb8bef314480aa6",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution4.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "efc68fb0ac9b22e1",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution5.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "beb372b76f9c8f73",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution6.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "a9bdc5334236a902",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution7.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "646406ac8e8d1f5b",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution8.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "6015d461a694c580",
+      "source": "tests/cases/conformance/jsx/tsxAttributeResolution9.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "40d2e14d755b674e",
+      "source": "tests/cases/conformance/jsx/tsxCorrectlyParseLessThanComparison1.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "f61c4430933d3f85",
+      "source": "tests/cases/conformance/jsx/tsxDefaultAttributesResolution1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "44b2725bb1227296",
+      "source": "tests/cases/conformance/jsx/tsxDefaultAttributesResolution2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "c2c99b0bbdfdab3f",
+      "source": "tests/cases/conformance/jsx/tsxDefaultAttributesResolution3.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "7d13501eb38f27ae",
+      "source": "tests/cases/conformance/jsx/tsxDynamicTagName1.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "22c8be3f89ae661d",
+      "source": "tests/cases/conformance/jsx/tsxDynamicTagName2.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "ca8e37168d4f3e54",
+      "source": "tests/cases/conformance/jsx/tsxDynamicTagName3.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "8b1913c910843cf7",
+      "source": "tests/cases/conformance/jsx/tsxDynamicTagName4.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "19ee1076838a35df",
+      "source": "tests/cases/conformance/jsx/tsxDynamicTagName5.tsx#app.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "4492695f07407b89",
+      "source": "tests/cases/conformance/jsx/tsxDynamicTagName6.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "b7676c8ee6ca41e5",
+      "source": "tests/cases/conformance/jsx/tsxDynamicTagName7.tsx#app.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "2b082ffc8af9ddf6",
+      "source": "tests/cases/conformance/jsx/tsxDynamicTagName8.tsx#app.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "cdacf8a674a6a7c1",
+      "source": "tests/cases/conformance/jsx/tsxDynamicTagName9.tsx#app.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "0ef9bb6ec0e64115",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "cf7ab5e2ec3e6a11",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "a88312477a501950",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution10.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "b3bb6d49b06ad419",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution11.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "ad2ac86389f55d06",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution12.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "e48e8b5d16699ca6",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution13.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "1447c0c75398cd27",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution14.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "a12e6122fac30822",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution15.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "37bd852dfa22ce91",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution16.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "c2cca224424ab687",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution17.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "79705ec3b93a0531",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution17.tsx#consumer.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "cb4ed0a25845ca3c",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution18.tsx#file1.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "098e5b1c58320b14",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution19.tsx#file1.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "c540ba7173882680",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution19.tsx#file2.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "45b6dc0322790714",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "2418b34a83e814bc",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution3.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "133bbc77efde521b",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution4.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "edf190fa2fd6257d",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution5.tsx#file1.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "a7f5e11d5546f8a2",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution6.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "9fc396753a3c9720",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution7.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "4c6afced17cb577d",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution8.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "532a46b059eb03be",
+      "source": "tests/cases/conformance/jsx/tsxElementResolution9.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "17e7664e48169ae4",
+      "source": "tests/cases/conformance/jsx/tsxEmit1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "561c6fcfdedac9b4",
+      "source": "tests/cases/conformance/jsx/tsxEmit2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "68fba07c513c9af3",
+      "source": "tests/cases/conformance/jsx/tsxEmit3.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "9423bec5caa67424",
+      "source": "tests/cases/conformance/jsx/tsxExternalModuleEmit1.tsx#app.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "1b3e2f8418d0cbee",
+      "source": "tests/cases/conformance/jsx/tsxExternalModuleEmit1.tsx#button.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "fe6ac98d6fc53a70",
+      "source": "tests/cases/conformance/jsx/tsxExternalModuleEmit2.tsx#app.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "3d3c1ad5aeaad573",
+      "source": "tests/cases/conformance/jsx/tsxFragmentPreserveEmit.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "e466f12b12871fe0",
+      "source": "tests/cases/conformance/jsx/tsxFragmentReactEmit.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "7af0da8393d27720",
+      "source": "tests/cases/conformance/jsx/tsxGenericAttributesType1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "8e193c558784c397",
+      "source": "tests/cases/conformance/jsx/tsxGenericAttributesType2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "f353d0401985e467",
+      "source": "tests/cases/conformance/jsx/tsxGenericAttributesType3.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "2f8eced15e03ae57",
+      "source": "tests/cases/conformance/jsx/tsxGenericAttributesType4.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "8f2e57a76c5856f1",
+      "source": "tests/cases/conformance/jsx/tsxGenericAttributesType5.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "16b0674839fda3a1",
+      "source": "tests/cases/conformance/jsx/tsxGenericAttributesType6.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "9caaddc273e33615",
+      "source": "tests/cases/conformance/jsx/tsxGenericAttributesType7.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "def23002ab4d7710",
+      "source": "tests/cases/conformance/jsx/tsxGenericAttributesType8.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "baf4caf835711dc3",
+      "source": "tests/cases/conformance/jsx/tsxGenericAttributesType9.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "7ec50bebffa3781a",
+      "source": "tests/cases/conformance/jsx/tsxInArrowFunction.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "87b4870ec8d12175",
+      "source": "tests/cases/conformance/jsx/tsxIntrinsicAttributeErrors.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "b35a4a0216489fd4",
+      "source": "tests/cases/conformance/jsx/tsxLibraryManagedAttributes.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "aa078b6dc2cc8efe",
+      "source": "tests/cases/conformance/jsx/tsxNamespacedAttributeName1.tsx#a.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "d30fbd8acfbc8dae",
+      "source": "tests/cases/conformance/jsx/tsxNamespacedAttributeName2.tsx#a.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "8bf9e48114b003c6",
+      "source": "tests/cases/conformance/jsx/tsxNamespacedTagName1.tsx#a.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "b1fcb8426066bd5f",
+      "source": "tests/cases/conformance/jsx/tsxNamespacedTagName2.tsx#a.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "15ae4553f782e68a",
+      "source": "tests/cases/conformance/jsx/tsxNoJsx.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "7d32b56e55e693be",
+      "source": "tests/cases/conformance/jsx/tsxOpeningClosingNames.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "7403cf1eafa86cb2",
+      "source": "tests/cases/conformance/jsx/tsxParseTests1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "6291a173fce6bf2e",
+      "source": "tests/cases/conformance/jsx/tsxParseTests2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "a150305a70c8ae7f",
+      "source": "tests/cases/conformance/jsx/tsxPreserveEmit1.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "747eda5d189436c0",
+      "source": "tests/cases/conformance/jsx/tsxPreserveEmit2.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "983a1dd12d89bd35",
+      "source": "tests/cases/conformance/jsx/tsxPreserveEmit3.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "c0cc8d7cf263f1bf",
+      "source": "tests/cases/conformance/jsx/tsxPreserveEmit3.tsx#react-consumer.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "e52940be9a8516d4",
+      "source": "tests/cases/conformance/jsx/tsxReactComponentWithDefaultTypeParameter1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "32525380e2f8f89a",
+      "source": "tests/cases/conformance/jsx/tsxReactComponentWithDefaultTypeParameter2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "80ace1223d226ce6",
+      "source": "tests/cases/conformance/jsx/tsxReactComponentWithDefaultTypeParameter3.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "d487b44f8a972faf",
+      "source": "tests/cases/conformance/jsx/tsxReactEmit1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "6abbc4094b8d5a7d",
+      "source": "tests/cases/conformance/jsx/tsxReactEmit2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "f05f025c6efba528",
+      "source": "tests/cases/conformance/jsx/tsxReactEmit3.tsx#test.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "5ac6d5771b3a54e5",
+      "source": "tests/cases/conformance/jsx/tsxReactEmit4.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "889bac6f2b281cf5",
+      "source": "tests/cases/conformance/jsx/tsxReactEmit5.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "b603af85f4904794",
+      "source": "tests/cases/conformance/jsx/tsxReactEmit5.tsx#react-consumer.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "d65664cb9153172f",
+      "source": "tests/cases/conformance/jsx/tsxReactEmit6.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "ae8702877b5ab045",
+      "source": "tests/cases/conformance/jsx/tsxReactEmit6.tsx#react-consumer.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "23acd37312d08b9e",
+      "source": "tests/cases/conformance/jsx/tsxReactEmit7.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "806d3b4ec248645a",
+      "source": "tests/cases/conformance/jsx/tsxReactEmit8.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "bd41488a49b6f751",
+      "source": "tests/cases/conformance/jsx/tsxReactEmitEntities.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "ab28da836b25f548",
+      "source": "tests/cases/conformance/jsx/tsxReactEmitNesting.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "701633f55b131b68",
+      "source": "tests/cases/conformance/jsx/tsxReactEmitWhitespace.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "d9a07523c7dbf8ed",
+      "source": "tests/cases/conformance/jsx/tsxReactEmitWhitespace2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "4de21803aea6e1cc",
+      "source": "tests/cases/conformance/jsx/tsxSfcReturnNull.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "2163ea48817ec71e",
+      "source": "tests/cases/conformance/jsx/tsxSfcReturnNullStrictNullChecks.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "2ce0f72318152168",
+      "source": "tests/cases/conformance/jsx/tsxSfcReturnUndefinedStrictNullChecks.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "95e4a47c9da6fdea",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "037b1f517fa90c1d",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution10.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "7ed5d5485d7fc724",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution11.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "30ddbb643c1c1dca",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution12.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "d5c9f8bdeaf53b3e",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution13.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "d3ff76b8a4d16430",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution14.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "6e164b4b7853a8c9",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution15.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "c9b6870288e90170",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution16.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "9f95dcd360436849",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution17.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "228d30e75b57e69c",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "ec9fb24f3c4b887d",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution3.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "32e1dd572dafb5f6",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution4.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "40d53083dd9bd69b",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution5.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "9f7bdadd133d0c3b",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution6.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "d95b04efdb9f2154",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution7.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "a176fe380e4f1595",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution8.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "0a919b4b03672604",
+      "source": "tests/cases/conformance/jsx/tsxSpreadAttributesResolution9.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "3bd27f7a32aefcc1",
+      "source": "tests/cases/conformance/jsx/tsxSpreadChildren.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "0eaa7e658003fd13",
+      "source": "tests/cases/conformance/jsx/tsxSpreadChildrenInvalidType.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "337a8d7e98be232a",
+      "source": "tests/cases/conformance/jsx/tsxSpreadInvalidType.tsx#a.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "552772ad5d96784f",
+      "source": "tests/cases/conformance/jsx/tsxStatelessFunctionComponentOverload1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "cda209ce5274354f",
+      "source": "tests/cases/conformance/jsx/tsxStatelessFunctionComponentOverload2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "c1b5444d11584da9",
+      "source": "tests/cases/conformance/jsx/tsxStatelessFunctionComponentOverload3.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "1d35a4a110b65def",
+      "source": "tests/cases/conformance/jsx/tsxStatelessFunctionComponentOverload4.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "bdc0ca04a3d92a4e",
+      "source": "tests/cases/conformance/jsx/tsxStatelessFunctionComponentOverload5.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "4186717c6675ae50",
+      "source": "tests/cases/conformance/jsx/tsxStatelessFunctionComponentOverload6.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "cb9a044ccc681694",
+      "source": "tests/cases/conformance/jsx/tsxStatelessFunctionComponentWithDefaultTypeParameter1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "0c702c739edf5b92",
+      "source": "tests/cases/conformance/jsx/tsxStatelessFunctionComponentWithDefaultTypeParameter2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "f8e08df155310d1d",
+      "source": "tests/cases/conformance/jsx/tsxStatelessFunctionComponents2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "7ed895d734a33877",
+      "source": "tests/cases/conformance/jsx/tsxStatelessFunctionComponents3.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "5bd2c5f3dde83b1e",
+      "source": "tests/cases/conformance/jsx/tsxStatelessFunctionComponentsWithTypeArguments1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "6880e418bde8ea9d",
+      "source": "tests/cases/conformance/jsx/tsxStatelessFunctionComponentsWithTypeArguments2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "3b7a9a4b3fe4cd7e",
+      "source": "tests/cases/conformance/jsx/tsxStatelessFunctionComponentsWithTypeArguments3.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "ad4eace712f89117",
+      "source": "tests/cases/conformance/jsx/tsxStatelessFunctionComponentsWithTypeArguments4.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "cde7c8acdc33e4c1",
+      "source": "tests/cases/conformance/jsx/tsxStatelessFunctionComponentsWithTypeArguments5.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "0b876c09677b5591",
+      "source": "tests/cases/conformance/jsx/tsxTypeArgumentResolution.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "70e49f907b77edbe",
+      "source": "tests/cases/conformance/jsx/tsxTypeArgumentsJsxPreserveOutput.tsx#foo.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "d57b3d80170a5274",
+      "source": "tests/cases/conformance/jsx/tsxTypeErrors.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "b61b45a519d46cf9",
+      "source": "tests/cases/conformance/jsx/tsxUnionElementType1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "3114fcc0b67f7609",
+      "source": "tests/cases/conformance/jsx/tsxUnionElementType2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "234dc8954fe97f26",
+      "source": "tests/cases/conformance/jsx/tsxUnionElementType3.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "6cc85b2638818032",
+      "source": "tests/cases/conformance/jsx/tsxUnionElementType4.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "f638eede97027a50",
+      "source": "tests/cases/conformance/jsx/tsxUnionElementType5.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "7ff4e387163a55da",
+      "source": "tests/cases/conformance/jsx/tsxUnionElementType6.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "2f304c39c00a7313",
+      "source": "tests/cases/conformance/jsx/tsxUnionTypeComponent1.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    },
+    {
+      "id": "1cc998ca1ab124bb",
+      "source": "tests/cases/conformance/jsx/tsxUnionTypeComponent2.tsx#file.tsx",
+      "status": "pass",
+      "suite": "typescript"
+    }
+  ],
+  "schema_version": 1,
+  "source_revisions": {
+    "typescript": {
+      "revision": "1e4744d68260a7cb91b62b12edc3f6a2187faaf1",
+      "synced_at": "2026-09-09T20:00:31Z",
+      "url": "https://github.com/microsoft/TypeScript.git"
+    }
+  },
+  "total": 221
+}
