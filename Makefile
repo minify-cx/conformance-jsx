@@ -31,4 +31,4 @@ dashboard:
 	$(PYTHON) tools/conformance.py dashboard
 
 clean:
-	rm -rf work generated results .state .nift/public .nift/.lock tests/__pycache__ tools/__pycache__
+	rm -rf work generated results .state node_modules .nift/public .nift/.lock tests/__pycache__ tools/__pycache__
