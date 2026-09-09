@@ -18,7 +18,18 @@ process.stdin.on("end", () => {
       if (kind === ts.SyntaxKind.EndOfFileToken) break;
       if (kind > ts.SyntaxKind.LastTriviaToken) tokens.push([kind, scanner.getTokenText()]);
     }
-    return {ok:true, tokens};
+    // JSX text is semantic: the scanner tokenizes text words as identifiers
+    // with the separating whitespace as trivia, so an identical non-trivia
+    // token stream can still hide a JSX text change (for example
+    // `a  b` -> `a b`). Walk the AST and retain every JsxText node's exact
+    // text in document order so the oracle also proves JSX text was preserved.
+    const jsxTexts = [];
+    const visit = node => {
+      if (ts.isJsxText(node)) jsxTexts.push(node.getText(sf));
+      ts.forEachChild(node, visit);
+    };
+    visit(sf);
+    return {ok:true, tokens, jsxTexts};
   });
   process.stdout.write(JSON.stringify(results));
 });

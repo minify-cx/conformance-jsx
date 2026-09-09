@@ -165,9 +165,7 @@ def compare(before,after):
   elif FORMAT in ("xml","svg"): a,b=xml_value(before),xml_value(after)
   else:
    a,b=jsx_values([before,after])
-   if not a["ok"]: return "source-rejected",{"before":a}
-   if not b["ok"]: return "parser-rejected",{"after":b}
-   return ("pass",{}) if a["tokens"]==b["tokens"] else ("token-difference",{"before":a,"after":b})
+   return compare_jsx_results(a,b)
  except Exception as e:
   try:
    if FORMAT=="json": json_value(before)
@@ -180,6 +178,11 @@ def compare_jsx_results(before,after):
  if not before["ok"]: return "source-rejected",{"before":before}
  if not after["ok"]: return "parser-rejected",{"after":after}
  if before["tokens"]!=after["tokens"]: return "token-difference",{"before":before,"after":after}
+ # JSX text is a semantic token: the scanner tokenizes text words as
+ # identifiers with separating whitespace as trivia, so the non-trivia token
+ # stream alone cannot detect `a  b` -> `a b`. Compare every JsxText node's
+ # exact text in document order as a second, stricter projection.
+ if before.get("jsxTexts")!=after.get("jsxTexts"): return "token-difference",{"before":before,"after":after}
  return "pass",{}
 
 def execute(cases_path,exe,result):
@@ -222,13 +225,13 @@ def dashboard(result):
  g.write_text(f'<section class="hero"><p class="eyebrow">{FORMAT.upper()} conformance</p><h1>Minify++ {FORMAT.upper()} evidence</h1><p>{data["total"]} independently sourced eligible cases. Generated {data["generated_at"]}.</p></section><ul class="stats">{cards}</ul><section><h2>Non-pass evidence</h2><table><thead><tr><th>Status</th><th>Source</th><th>ID</th></tr></thead><tbody>{rows}</tbody></table></section>')
  (ROOT/"public/results").mkdir(parents=True,exist_ok=True); shutil.copy2(result,ROOT/"public/results/latest.json")
  if shutil.which("nift"):
-  subprocess.run(["nift","build-all"],cwd=ROOT,check=True)
+  subprocess.run(["nift","build","--all"],cwd=ROOT,check=True)
  else:
   # Keep the checked-in dashboard reviewable in minimal environments. Nift
   # remains the canonical CI/site builder; this fallback mirrors the single
   # page template without introducing a second source format.
-  head=(ROOT/"templates/head.html").read_text().replace("$[title]",f"Minify++ {FORMAT.upper()} conformance").replace("@pathto('assets/css/style.css')","assets/css/style.css")
-  page=(ROOT/"templates/template.html").read_text().replace('@input("templates/head.html")',head).replace("@content",g.read_text()).replace("@pathto('assets/js/script.js')","assets/js/script.js")
+  head=(ROOT/"templates/head.html").read_text().replace("$[title]",f"Minify++ {FORMAT.upper()} conformance").replace("@path('public/assets/css/style.css')","assets/css/style.css")
+  page=(ROOT/"templates/template.html").read_text().replace('@input("templates/head.html")',head).replace("@content",g.read_text()).replace("@path('public/assets/js/script.js')","assets/js/script.js")
   (ROOT/"public/index.html").write_text(page)
   shutil.copytree(ROOT/"content/assets",ROOT/"public/assets",dirs_exist_ok=True)
 
