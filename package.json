@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "description": "Pinned parser oracle for Minify++ JSX conformance",
+  "dependencies": {
+    "typescript": "5.9.2"
+  }
+}
